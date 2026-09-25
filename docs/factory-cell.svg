@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img"
+    aria-labelledby="title desc">
+    <title id="title">Mini Factory Robot cell</title>
+    <desc id="desc">Industrial six-axis robot, conveyor belt, safety fence and control station.</desc>
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#17232d" />
+            <stop offset="1" stop-color="#33434a" />
+        </linearGradient>
+        <linearGradient id="belt" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#3f555e" />
+            <stop offset="1" stop-color="#1b252b" />
+        </linearGradient>
+    </defs>
+    <rect width="1200" height="620" fill="url(#bg)" />
+    <path d="M0 480 L1200 430 L1200 620 L0 620Z" fill="#202c32" />
+    <path d="M80 455 L1060 410 L1160 500 L160 555Z" fill="#53636a" stroke="#efc45d" stroke-width="5" />
+    <g stroke="#82939a" stroke-width="13">
+        <path d="M140 466 L1040 426" />
+        <path d="M170 488 L1070 448" />
+        <path d="M200 510 L1100 470" />
+    </g>
+    <g stroke="#6bd1df" stroke-width="4">
+        <path d="M85 443 L1060 400" />
+        <path d="M130 534 L1110 487" />
+    </g>
+    <g fill="#efc45d" stroke="#f8df8b" stroke-width="4">
+        <path d="M170 150 L170 500" />
+        <path d="M530 130 L530 485" />
+        <path d="M880 115 L880 465" />
+        <path d="M170 150 L530 130 L880 115" fill="none" />
+        <path d="M170 330 L530 310 L880 295" fill="none" />
+    </g>
+    <g stroke="#0d1419" stroke-width="12" stroke-linecap="round" fill="none">
+        <path d="M430 410 L430 290 L500 230 L650 250" />
+        <path d="M430 410 L430 290 L500 230 L650 250" stroke="#d64f48" stroke-width="34" />
+        <path d="M650 250 L760 315" stroke="#efc45d" stroke-width="30" />
+        <path d="M760 315 L820 292" stroke="#d64f48" stroke-width="22" />
+    </g>
+    <g fill="#ef8354" stroke="#dce6e8" stroke-width="5">
+        <circle cx="430" cy="410" r="38" />
+        <circle cx="430" cy="290" r="30" />
+        <circle cx="500" cy="230" r="28" />
+        <circle cx="650" cy="250" r="23" />
+        <circle cx="760" cy="315" r="20" />
+    </g>
+    <path d="M815 292 L850 280 L870 310 L838 326Z" fill="#f5f1e8" stroke="#141d22" stroke-width="7" />
+    <g transform="translate(930 220)">
+        <rect width="170" height="150" rx="8" fill="#1a252c" stroke="#b9c8cc" stroke-width="5" />
+        <rect x="25" y="22" width="120" height="65" fill="#63c6d8" stroke="#132027" stroke-width="5" />
+        <circle cx="48" cy="118" r="9" fill="#86c86b" />
+        <circle cx="85" cy="118" r="9" fill="#efc45d" />
+        <circle cx="122" cy="118" r="9" fill="#d64f48" />
+    </g>
+    <g transform="translate(700 445)">
+        <rect width="75" height="48" fill="#ef8354" stroke="#3d2923" stroke-width="5" />
+        <path d="M37 0 V48" stroke="#f8da7d" stroke-width="5" />
+    </g>
+    <text x="56" y="70" fill="#f5f1e8" font-family="Segoe UI, sans-serif" font-size="34"
+        font-weight="700">MINI FACTORY CELL</text>
+    <text x="58" y="105" fill="#9fb2b8" font-family="Consolas, monospace" font-size="16">SIX-AXIS
+        ROBOT / CONVEYOR / HMI</text>
+</svg>

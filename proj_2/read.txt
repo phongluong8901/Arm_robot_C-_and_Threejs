@@ -1,0 +1,6 @@
+cd "d:\A_Self_Proj\learn_c#\proj_2"
+npm install
+npm run build
+npm run preview -- --host 127.0.0.1
+
+http://127.0.0.1:4173/

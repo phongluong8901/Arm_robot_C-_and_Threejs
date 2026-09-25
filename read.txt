@@ -1,0 +1,9 @@
+Cài .NET SDK (nếu chưa có):
+Tải tại: https://dotnet.microsoft.com/download
+Cài extension C# (hoặc C# Dev Kit) trong VS Code.
+
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-10.0.401-windows-x64-installer
+
+--- run
+cd proj_1
+dotnet run test1.cs

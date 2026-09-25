@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Factory Robot - Three.js</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main id="app">
+      <section class="hud">
+        <p class="eyebrow">THREE.JS / FACTORY LAB</p>
+        <h1>Mini Factory Robot</h1>
+        <div class="status-row">
+          <span class="status-dot" id="status-dot"></span>
+          <span id="status-text">DANG CHAY</span>
+          <span class="divider">|</span>
+          <span><strong id="box-count">0</strong> hop da xu ly</span>
+        </div>
+        <div class="controls">
+          <button id="toggle-button" type="button">Tam dung</button>
+          <button id="reset-button" class="secondary" type="button">Reset</button>
+        </div>
+        <p class="hint">Keo chuot de xoay camera · Lan chuot de zoom · Space / R</p>
+      </section>
+      <section class="metrics" aria-label="Thong so">
+        <div><span>FPS</span><strong id="fps">--</strong></div>
+        <div><span>ENGINE</span><strong>WebGL</strong></div>
+      </section>
+      <section class="robot-panel" aria-label="Bang dieu khien robot">
+        <div class="panel-title"><span>ROBOT CONTROL</span><span id="robot-mode-label">AUTO</span></div>
+        <div class="panel-actions">
+          <button id="mode-button" type="button">Manual</button>
+          <button id="estop-button" class="danger" type="button">E-STOP</button>
+        </div>
+        <label class="speed-control">Speed <input id="speed-input" type="range" min="0.25" max="2" step="0.25" value="1" /><output id="speed-value">1.00x</output></label>
+        <div class="axis-list" id="axis-list"></div>
+      </section>
+      <div class="help">Drag camera <span>↗</span></div>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
